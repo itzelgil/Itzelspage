@@ -6,34 +6,34 @@ body {
     text-align: center;
 }
 
-
-.menu ul{
+.navbar ul{
     display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
     overflow: auto;
-    background-color: rgb(240, 128, 128);
+    background-color: #f2cc8f;
     opacity: 80%;
-
+    border-radius: 18px;
+    
 }
 
-.menu a{
+.navbar a{
     display: block;
 	padding: 2em;
 	text-decoration: none;
-	color: white;
+	color: #3d405b;
 }
 
-.menu a:hover {
-    background-color: rgb(212, 149, 149);
+.navbar a:hover {
+    background-color: #f4f1de;
 }
 
-.menu ul li ul {
+.navbar ul li ul {
     display: none;
 }
 
-.menu ul li a:hover + ul, .menu ul li ul:hover {
+.navbar ul li a:hover + ul, .navbar ul li ul:hover {
     display: block;
 }
 
@@ -43,4 +43,14 @@ img {
     border-radius: 5px;
 
 }
+
+.logoitzel{
+    width: 120px;
+    height: 100px;
+    align-items: top;
+    float: right;
+}
+
+
+
 
